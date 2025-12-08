@@ -2,9 +2,12 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "Adrian Test",
+    "name": "Ad",
     "number": "5555555555"
 }  
 
 ###
 GET http://localhost:3001/api/persons 
+
+###
+GET http://localhost:3001/api/persons/6931bacb1a33944ee1599930
